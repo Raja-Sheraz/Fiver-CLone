@@ -9,10 +9,13 @@ Follow these steps to install dependencies and run both the **Backend** and **Fr
 ### 1. **Install Dependencies**
 
 #### Backend
-1. Navigate to the `backend` directory:
+1. Navigate to the Backend  directory
+
    ```bash
 
 cd backend
-npm install 
+npm install
 
-```
+   ```
+Install the required dependencies:
+
