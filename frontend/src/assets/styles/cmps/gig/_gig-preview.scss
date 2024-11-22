@@ -1,0 +1,124 @@
+.gig-preview {
+    @include flex;
+    flex-direction: column;
+    border: 1px solid $clr7;
+    min-width: rem(245px);
+    min-height: rem(370px);
+
+    img {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0 em(12px, 16px) em(10px, 16px);
+
+
+        .title {
+            min-height: em(59px, 16px);
+            line-height: calc(22 / 16);
+            padding-bottom: em(15px, 16px);
+        }
+    }
+
+    .owner-info {
+        font-size: rem(14px);
+        line-height: calc(18 / 14);
+        display: flex;
+        align-items: center;
+        padding-bottom: .857em;
+
+        img {
+            width: 1.7em;
+            height: 1.7em;
+            border-radius: 50%;
+        }
+    }
+
+    .owner {
+        display: flex;
+        flex-direction: column;
+        padding-left: .5em;
+
+        span {
+            font-family: macan-light;
+            color: $clr4;
+        }
+
+        a {
+            font-family: macan-semibold;
+        }
+
+        a:hover {
+            color: $clr2;
+            text-decoration: underline;
+        }
+    }
+
+    .rate {
+        font-size: rem(14px);
+        color: $clr4;
+        display: flex;
+
+        div:last-child {
+            margin-left: em(5px, 14px);
+        }
+
+        .ratings-count {
+            color: $clr6;
+            font-family: macan-light;
+
+        }
+    }
+
+    footer {
+        width: 100%;
+        border-top: 1px solid $clr7;
+        padding: .625em .75em;
+        @include flex;
+
+        button {
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+            color: $clr6;
+        }
+
+        button:first-of-type {
+            padding-right: .5em;
+        }
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 1.125em;
+        line-height: 1.3;
+
+        small {
+            text-transform: uppercase;
+            font-size: .56em;
+            line-height: 1.6;
+            color: $clr6;
+        }
+
+        sup {
+            top: 2px;
+            margin-left: 1px;
+            font-size: 70%;
+            line-height: 0;
+            position: relative;
+            vertical-align: super;
+        }
+    }
+
+    .price:hover {
+        color: $clr2;
+    }
+
+}

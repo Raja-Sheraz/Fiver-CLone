@@ -1,0 +1,34 @@
+.user-index-add-link {
+    background-color: $clr1;
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: $clr3;
+    display: block;
+    text-align: center;
+    width: 150px;
+
+    margin-bottom: 20px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: green;
+        color: $clr3;
+    }
+}
+
+.user-details {
+    .user-img {
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+    }
+}
+
+.user-index-info {
+
+    .review-list {
+        button {
+            background-color: transparent;
+        }
+    }
+}

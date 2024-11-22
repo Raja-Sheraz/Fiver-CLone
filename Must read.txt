@@ -1,0 +1,1 @@
+Install NPM n both Backend and frandend and run together
