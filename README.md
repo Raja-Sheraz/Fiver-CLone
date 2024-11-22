@@ -93,7 +93,8 @@ npm start
 Contributions are welcome! To contribute:
 
 1- Fork the repository
-2 -Create a feature branch:
+
+2- Create a feature branch:
 
 ```bash
 
